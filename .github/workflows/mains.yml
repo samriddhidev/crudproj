@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10  # Specify the Python version
+          python-version: 3.10  # Use Python 3.10 for stable builds
 
       # Step 3: Install dependencies
       - name: Install dependencies
